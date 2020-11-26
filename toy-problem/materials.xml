@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="uranium_fuel">
+    <density units="g/cm3" value="19.1" />
+    <nuclide name="U235" wo="0.2" />
+    <nuclide name="U238" wo="0.8" />
+    <nuclide name="Zr90" wo="0.055371080321017445" />
+    <nuclide name="Zr91" wo="0.01220952910100235" />
+    <nuclide name="Zr92" wo="0.018867686795096764" />
+    <nuclide name="Zr94" wo="0.01953708594172498" />
+    <nuclide name="Zr96" wo="0.0032146178411584926" />
+  </material>
+  <material id="2" name="salt_bath">
+    <density units="g/cm3" value="2.146" />
+    <nuclide name="Li7" wo="0.109" />
+    <nuclide name="Li6" wo="5e-06" />
+    <nuclide name="F19" wo="0.668" />
+    <nuclide name="Be9" wo="0.0627" />
+  </material>
+</materials>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plots>
+  <!--top-plot-->
+  <plot basis="xy" color_by="material" id="1" type="slice">
+    <origin>0 0 5.0</origin>
+    <width>21.0 21.0</width>
+    <pixels>140 140</pixels>
+  </plot>
+  <!--side-plot-->
+  <plot basis="xz" color_by="material" id="2" type="slice">
+    <origin>0 3.5 5.0</origin>
+    <width>21.0 15.0</width>
+    <pixels>140 100</pixels>
+  </plot>
+  <!--vox-plot-->
+  <plot color_by="material" id="3" type="voxel">
+    <origin>0.0 0.0 0.0</origin>
+    <width>21.0 21.0 15.0</width>
+    <pixels>140 140 100</pixels>
+  </plot>
+</plots>

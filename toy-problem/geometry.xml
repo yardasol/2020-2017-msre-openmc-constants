@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" name="fuel_cell" region="-1 4 -3" universe="1" />
+  <cell id="2" material="2" name="salt_cell" region="-2 1 4 -3" universe="1" />
+  <surface coeffs="0.0 0.0 4.0" id="1" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 7.0" id="2" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="10.0" id="3" type="z-plane" />
+  <surface boundary="vacuum" coeffs="0" id="4" type="z-plane" />
+</geometry>
